@@ -1,0 +1,593 @@
+{
+  "job_description": "Senior Machine Learning Engineer - Kestrel AI\nWe are looking for a Senior ML Engineer to build and ship models that power our recommendation and NLP products.\n\nResponsibilities:\n- Design, train and deploy machine learning models to production\n- Build NLP features such as entity extraction and semantic search using transformers and LLMs\n- Own the MLOps lifecycle: experiment tracking, model registry, monitoring\n\nRequirements:\n- 5+ years Python experience\n- Strong background in Machine Learning and Deep Learning (PyTorch or TensorFlow)\n- Experience with NLP and retrieval systems (RAG is a plus)\n- Familiarity with AWS, Docker and MLOps tooling",
+  "top_matches": [
+    {
+      "candidate_name": "Aarav Sharma",
+      "resume_path": "data/resumes/aarav_sharma.pdf",
+      "match_score": 87,
+      "matched_skills": [
+        "Machine Learning",
+        "NLP",
+        "LLMs",
+        "MLOps",
+        "Python",
+        "Deep Learning",
+        "PyTorch",
+        "AWS"
+      ],
+      "relevant_excerpts": [
+        "Set up experiment tracking and model registry (MLflow) so the team could reproduce every run",
+        "Fine-tuned transformer models for NLP tasks such as entity extraction and intent classification",
+        "Trained PyTorch classifiers for fraud detection, lifting recall by 18% over the rules baseline"
+      ],
+      "reasoning": "Strong match: 8.0 yrs experience (role asks for 5+); covers 8/11 JD skills (Machine Learning, NLP, LLMs, MLOps, Python, Deep Learning); gaps: TensorFlow, Docker; strongest evidence in Experience, Summary.",
+      "missing_skills": [
+        "TensorFlow",
+        "Docker"
+      ],
+      "experience_years": 8.0,
+      "matched_sections": [
+        "Experience",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.904,
+        "keyword": 0.934,
+        "skill_coverage": 0.773,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.757
+      }
+    },
+    {
+      "candidate_name": "Priya Tanaka",
+      "resume_path": "data/resumes/priya_tanaka.pdf",
+      "match_score": 85,
+      "matched_skills": [
+        "Machine Learning",
+        "NLP",
+        "LLMs",
+        "Python",
+        "Deep Learning",
+        "PyTorch",
+        "AWS",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Fine-tuned transformer models for NLP tasks such as entity extraction and intent classification",
+        "Trained PyTorch classifiers for fraud detection, lifting recall by 18% over the rules baseline",
+        "Engineer with 6+ years in Python, Machine Learning and PyTorch, passionate about clean design,"
+      ],
+      "reasoning": "Strong match: 6.0 yrs experience (role asks for 5+); covers 8/11 JD skills (Machine Learning, NLP, LLMs, Python, Deep Learning, PyTorch); gaps: MLOps, TensorFlow; strongest evidence in Experience, Skills, Summary.",
+      "missing_skills": [
+        "MLOps",
+        "TensorFlow"
+      ],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.82,
+        "keyword": 1.0,
+        "skill_coverage": 0.773,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.719
+      }
+    },
+    {
+      "candidate_name": "Liam Silva",
+      "resume_path": "data/resumes/liam_silva.docx",
+      "match_score": 67,
+      "matched_skills": [
+        "Machine Learning",
+        "NLP",
+        "MLOps",
+        "Python",
+        "PyTorch",
+        "RAG"
+      ],
+      "relevant_excerpts": [
+        "Built and deployed Machine Learning models in Python serving 2M+ predictions per day with p95 latency under 80ms",
+        "Trained PyTorch classifiers for fraud detection, lifting recall by 18% over the rules baseline",
+        "Set up experiment tracking and model registry (MLflow) so the team could reproduce every run"
+      ],
+      "reasoning": "Good match: 5.5 yrs experience (role asks for 5+); covers 6/11 JD skills (Machine Learning, NLP, MLOps, Python, PyTorch, RAG); gaps: LLMs, Deep Learning, TensorFlow, AWS; strongest evidence in Experience.",
+      "missing_skills": [
+        "LLMs",
+        "Deep Learning",
+        "TensorFlow",
+        "AWS",
+        "Docker"
+      ],
+      "experience_years": 5.5,
+      "matched_sections": [
+        "Experience"
+      ],
+      "score_breakdown": {
+        "semantic": 0.781,
+        "keyword": 0.472,
+        "skill_coverage": 0.545,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.701
+      }
+    },
+    {
+      "candidate_name": "Chloe Pillai",
+      "resume_path": "data/resumes/chloe_pillai.pdf",
+      "match_score": 56,
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Hardened Linux base images and container builds with Docker, passing SOC2 audit",
+        "Wrote Terraform modules for VPCs, IAM and databases, making all AWS infra reproducible",
+        "k8s, Docker, Terraform, CI/CD, Linux, Ansible, Azure, Kafka, Bash, Python"
+      ],
+      "reasoning": "Partial match: 10.0 yrs experience (role asks for 5+); covers 3/11 JD skills (Python, AWS, Docker); gaps: Machine Learning, LLMs, MLOps, Deep Learning; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "Machine Learning",
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "experience_years": 10.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.767,
+        "keyword": 0.159,
+        "skill_coverage": 0.364,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.695
+      }
+    },
+    {
+      "candidate_name": "Grace Obi",
+      "resume_path": "data/resumes/grace_obi.txt",
+      "match_score": 55,
+      "matched_skills": [
+        "Python",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Built Django and FastAPI services in Python powering the customer onboarding flow",
+        "Backend Engineer (Python) - Cedar Health Tech",
+        "Containerised services with Docker and automated deployments through CI pipelines"
+      ],
+      "reasoning": "Partial match: 5.0 yrs experience (role asks for 5+); covers 2/11 JD skills (Python, Docker); gaps: Machine Learning, LLMs, MLOps, Deep Learning; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "Machine Learning",
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow",
+        "AWS"
+      ],
+      "experience_years": 5.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.743,
+        "keyword": 0.371,
+        "skill_coverage": 0.273,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.684
+      }
+    },
+    {
+      "candidate_name": "Lucas Lopez",
+      "resume_path": "data/resumes/lucas_lopez.docx",
+      "match_score": 54,
+      "matched_skills": [
+        "Machine Learning",
+        "Python",
+        "AWS",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Partnered with ML engineers to deliver feature tables for model training",
+        "Senior Data Engineer with 5+ years of experience building production systems using Python, Spark, Airflow.",
+        "Python, Spark, Airflow, SQL, ETL, Snowflake, Scala, Docker, Terraform"
+      ],
+      "reasoning": "Partial match: 5.0 yrs experience (role asks for 5+); covers 4/11 JD skills (Machine Learning, Python, AWS, Docker); gaps: LLMs, MLOps, Deep Learning, PyTorch; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "experience_years": 5.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.623,
+        "keyword": 0.231,
+        "skill_coverage": 0.455,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.63
+      }
+    },
+    {
+      "candidate_name": "Mei Kim",
+      "resume_path": "data/resumes/mei_kim.pdf",
+      "match_score": 54,
+      "matched_skills": [
+        "Machine Learning",
+        "Python",
+        "AWS"
+      ],
+      "relevant_excerpts": [
+        "Partnered with ML engineers to deliver feature tables for model training",
+        "Engineer with 7+ years in Python, Spark and ETL, passionate about clean design, measurable",
+        "Python, Spark, ETL, Snowflake, Kafka, AWS, Hadoop, Scala"
+      ],
+      "reasoning": "Partial match: 7.0 yrs experience (role asks for 5+); covers 3/11 JD skills (Machine Learning, Python, AWS); gaps: LLMs, MLOps, Deep Learning, PyTorch; strongest evidence in Experience, Skills, Summary.",
+      "missing_skills": [
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Docker"
+      ],
+      "experience_years": 7.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.696,
+        "keyword": 0.235,
+        "skill_coverage": 0.364,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.663
+      }
+    },
+    {
+      "candidate_name": "Rohan Brooks",
+      "resume_path": "data/resumes/rohan_brooks.docx",
+      "match_score": 52,
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Backend Engineer (Python) - Cedar Health Tech",
+        "Built Django and FastAPI services in Python powering the customer onboarding flow",
+        "Containerised services with Docker and automated deployments through CI pipelines"
+      ],
+      "reasoning": "Partial match: 7.0 yrs experience (role asks for 5+); covers 3/11 JD skills (Python, AWS, Docker); gaps: Machine Learning, LLMs, MLOps, Deep Learning; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "Machine Learning",
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "experience_years": 7.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.546,
+        "keyword": 0.485,
+        "skill_coverage": 0.364,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.596
+      }
+    },
+    {
+      "candidate_name": "Diego Rossi",
+      "resume_path": "data/resumes/diego_rossi.docx",
+      "match_score": 50,
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Docker"
+      ],
+      "relevant_excerpts": [
+        "Wrote Terraform modules for VPCs, IAM and databases, making all AWS infra reproducible",
+        "Hardened Linux base images and container builds with Docker, passing SOC2 audit",
+        "Engineer with 6+ years in Kubernetes, Docker and Terraform, passionate about clean design, measurable impact and mentoring."
+      ],
+      "reasoning": "Partial match: 6.0 yrs experience (role asks for 5+); covers 3/11 JD skills (Python, AWS, Docker); gaps: Machine Learning, LLMs, MLOps, Deep Learning; strongest evidence in Experience, Skills, Projects.",
+      "missing_skills": [
+        "Machine Learning",
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Projects"
+      ],
+      "score_breakdown": {
+        "semantic": 0.6,
+        "keyword": 0.203,
+        "skill_coverage": 0.364,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.62
+      }
+    },
+    {
+      "candidate_name": "Nadia Dubois",
+      "resume_path": "data/resumes/nadia_dubois.txt",
+      "match_score": 39,
+      "matched_skills": [
+        "Python"
+      ],
+      "relevant_excerpts": [
+        "Automated weekly reporting in Excel and Python, saving the team 10 hours a week"
+      ],
+      "reasoning": "Weak match: 6.0 yrs experience (role asks for 5+); covers 1/11 JD skills (Python); gaps: Machine Learning, LLMs, MLOps, Deep Learning; strongest evidence in Experience, Projects, Skills.",
+      "missing_skills": [
+        "Machine Learning",
+        "LLMs",
+        "MLOps",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow",
+        "AWS",
+        "Docker"
+      ],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Projects",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.566,
+        "keyword": 0.026,
+        "skill_coverage": 0.182,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.605
+      }
+    }
+  ],
+  "parsed_requirements": {
+    "must_have": {
+      "Python": 5
+    },
+    "min_years": 5,
+    "required_skills": [
+      "Machine Learning",
+      "LLMs",
+      "MLOps",
+      "Deep Learning",
+      "PyTorch",
+      "TensorFlow",
+      "AWS",
+      "Docker"
+    ],
+    "nice_to_have": [
+      "NLP",
+      "RAG"
+    ]
+  },
+  "filtered_out": [
+    {
+      "candidate_name": "Ananya Wilson",
+      "resume_path": "data/resumes/ananya_wilson.txt",
+      "reasons": [
+        "3.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Arjun Menon",
+      "resume_path": "data/resumes/arjun_menon.pdf",
+      "reasons": [
+        "2.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Divya Okafor",
+      "resume_path": "data/resumes/divya_okafor.pdf",
+      "reasons": [
+        "missing must-have skill: Python",
+        "4.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Elena Eze",
+      "resume_path": "data/resumes/elena_eze.pdf",
+      "reasons": [
+        "missing must-have skill: Python",
+        "2.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Emma Kapoor",
+      "resume_path": "data/resumes/emma_kapoor.pdf",
+      "reasons": [
+        "missing must-have skill: Python"
+      ]
+    },
+    {
+      "candidate_name": "Ethan Reddy",
+      "resume_path": "data/resumes/ethan_reddy.docx",
+      "reasons": [
+        "missing must-have skill: Python",
+        "1.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Fatima Costa",
+      "resume_path": "data/resumes/fatima_costa.pdf",
+      "reasons": [
+        "missing must-have skill: Python"
+      ]
+    },
+    {
+      "candidate_name": "Hana Petrova",
+      "resume_path": "data/resumes/hana_petrova.txt",
+      "reasons": [
+        "missing must-have skill: Python",
+        "4.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Ifeoma Iyer",
+      "resume_path": "data/resumes/ifeoma_iyer.txt",
+      "reasons": [
+        "missing must-have skill: Python",
+        "3.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Isabel Haddad",
+      "resume_path": "data/resumes/isabel_haddad.txt",
+      "reasons": [
+        "4.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Kenji Fischer",
+      "resume_path": "data/resumes/kenji_fischer.docx",
+      "reasons": [
+        "missing must-have skill: Python",
+        "3.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Kwame Hassan",
+      "resume_path": "data/resumes/kwame_hassan.pdf",
+      "reasons": [
+        "missing must-have skill: Python",
+        "3.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Leila Rao",
+      "resume_path": "data/resumes/leila_rao.txt",
+      "reasons": [
+        "missing must-have skill: Python",
+        "2.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Mateo Chen",
+      "resume_path": "data/resumes/mateo_chen.docx",
+      "reasons": [
+        "missing must-have skill: Python"
+      ]
+    },
+    {
+      "candidate_name": "Noah Aziz",
+      "resume_path": "data/resumes/noah_aziz.docx",
+      "reasons": [
+        "missing must-have skill: Python"
+      ]
+    },
+    {
+      "candidate_name": "Olivia Karim",
+      "resume_path": "data/resumes/olivia_karim.pdf",
+      "reasons": [
+        "2.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Omar Joshi",
+      "resume_path": "data/resumes/omar_joshi.pdf",
+      "reasons": [
+        "2.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Ravi Mensah",
+      "resume_path": "data/resumes/ravi_mensah.pdf",
+      "reasons": [
+        "missing must-have skill: Python",
+        "1.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Sakura Novak",
+      "resume_path": "data/resumes/sakura_novak.txt",
+      "reasons": [
+        "missing must-have skill: Python",
+        "4.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Sofia Ali",
+      "resume_path": "data/resumes/sofia_ali.txt",
+      "reasons": [
+        "3.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Tariq Berg",
+      "resume_path": "data/resumes/tariq_berg.docx",
+      "reasons": [
+        "1.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Vikram Patel",
+      "resume_path": "data/resumes/vikram_patel.pdf",
+      "reasons": [
+        "4.0 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Wei Adeyemi",
+      "resume_path": "data/resumes/wei_adeyemi.pdf",
+      "reasons": [
+        "1.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Yusuf Garcia",
+      "resume_path": "data/resumes/yusuf_garcia.pdf",
+      "reasons": [
+        "2.5 yrs experience < required 5+"
+      ]
+    },
+    {
+      "candidate_name": "Zara Rahimi",
+      "resume_path": "data/resumes/zara_rahimi.pdf",
+      "reasons": [
+        "missing must-have skill: Python"
+      ]
+    }
+  ],
+  "retrieval": {
+    "mode": "hybrid",
+    "embedder": "huggingface:BAAI/bge-small-en-v1.5",
+    "k": 10,
+    "candidates_scored": 11,
+    "filters_applied": true,
+    "latency_ms": {
+      "semantic": 47.0,
+      "keyword": 2.5,
+      "total": 52.3
+    }
+  }
+}

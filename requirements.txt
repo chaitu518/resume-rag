@@ -1,0 +1,23 @@
+# core
+chromadb>=1.0
+numpy>=1.26
+scikit-learn>=1.4
+rank-bm25>=0.2.2
+pypdf>=4.0
+python-docx>=1.1
+reportlab>=4.0          # only needed to regenerate the dataset
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+
+# notebook
+pandas>=2.1
+matplotlib>=3.8
+jupyter
+nbformat
+
+# embedding providers (install the one you use; without any, the offline TF-IDF/LSA model is used)
+sentence-transformers>=3.0   # EMBEDDING_PROVIDER=huggingface  (BAAI/bge-small-en-v1.5, ~130 MB download)
+# openai>=1.30               # EMBEDDING_PROVIDER=openai       (needs OPENAI_API_KEY)
+# cohere>=5.5                # EMBEDDING_PROVIDER=cohere       (needs COHERE_API_KEY)
+# anthropic>=0.40            # optional LLM-written reasoning   (needs ANTHROPIC_API_KEY)

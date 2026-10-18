@@ -1,0 +1,23 @@
+Leila Rao
+Mobile Engineer
+leila.rao@example.com | +1-555-972-9742 | linkedin.com/in/leila
+
+About Me
+Results-driven mobile engineer (2+ yrs) focused on Kotlin and Android. Comfortable owning features end to end and working with cross-functional teams.
+
+Professional Experience
+Mobile Engineer - Kestrel AI
+Nov 2024 - Present
+- Built cross-platform screens with Flutter, sharing 70% of code between Android and iOS
+- Reduced app start time by 35% through lazy loading and image caching
+- Shipped Android features in Kotlin for an app with 5M+ installs and 4.6 store rating
+
+Tech Stack
+Kotlin, Android, Swift, iOS, React Native, CI/CD
+
+Academic Background
+B.Tech in Computer Science, National University of Singapore (2023)
+
+PROJECTS
+- Offline-first notes app
+- Habit tracker app

@@ -1,0 +1,370 @@
+{
+  "job_description": "Data Analyst - Sagewell Bank\nTurn data into decisions for product and leadership teams.\n\nResponsibilities:\n- Write SQL to answer business questions\n- Build dashboards in Tableau or Power BI\n- Run A/B tests and statistical analysis\n\nRequirements:\n- 2+ years as a data or BI analyst\n- Advanced SQL and Excel\n- Tableau or Power BI, solid statistics",
+  "top_matches": [
+    {
+      "candidate_name": "Olivia Karim",
+      "resume_path": "data/resumes/olivia_karim.pdf",
+      "match_score": 92,
+      "matched_skills": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "relevant_excerpts": [
+        "Ran A/B tests and Statistics reviews for pricing experiments across 3 markets",
+        "Built Power BI reports for leadership on funnel conversion and churn drivers",
+        "Wrote complex SQL queries and built Tableau dashboards tracking revenue and retention"
+      ],
+      "reasoning": "Strong match: 2.5 yrs experience (role asks for 2+); covers 5/5 JD skills (SQL, Tableau, Power BI, Statistics, Excel); strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [],
+      "experience_years": 2.5,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.8,
+        "keyword": 1.0,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.71
+      }
+    },
+    {
+      "candidate_name": "Nadia Dubois",
+      "resume_path": "data/resumes/nadia_dubois.txt",
+      "match_score": 91,
+      "matched_skills": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "relevant_excerpts": [
+        "Wrote complex SQL queries and built Tableau dashboards tracking revenue and retention",
+        "Built Power BI reports for leadership on funnel conversion and churn drivers",
+        "Automated weekly reporting in Excel and Python, saving the team 10 hours a week"
+      ],
+      "reasoning": "Strong match: 6.0 yrs experience (role asks for 2+); covers 5/5 JD skills (SQL, Tableau, Power BI, Statistics, Excel); strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.818,
+        "keyword": 0.867,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.718
+      }
+    },
+    {
+      "candidate_name": "Vikram Patel",
+      "resume_path": "data/resumes/vikram_patel.pdf",
+      "match_score": 88,
+      "matched_skills": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "relevant_excerpts": [
+        "Ran A/B tests and Statistics reviews for pricing experiments across 3 markets",
+        "Wrote complex SQL queries and built Tableau dashboards tracking revenue and retention",
+        "Automated weekly reporting in Excel and Python, saving the team 10 hours a week"
+      ],
+      "reasoning": "Strong match: 4.0 yrs experience (role asks for 2+); covers 5/5 JD skills (SQL, Tableau, Power BI, Statistics, Excel); strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [],
+      "experience_years": 4.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.745,
+        "keyword": 0.862,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.685
+      }
+    },
+    {
+      "candidate_name": "Priya Tanaka",
+      "resume_path": "data/resumes/priya_tanaka.pdf",
+      "match_score": 43,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Python, Machine Learning, PyTorch, scikit-learn, Pandas, NLP, Docker, LLMs, AWS, SQL"
+      ],
+      "reasoning": "Weak match: 6.0 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Experience, Skills.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.608,
+        "keyword": 0.111,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.623
+      }
+    },
+    {
+      "candidate_name": "Ananya Wilson",
+      "resume_path": "data/resumes/ananya_wilson.txt",
+      "match_score": 42,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Python, Spark, Airflow, SQL, ETL, Kafka, dbt, Docker"
+      ],
+      "reasoning": "Weak match: 3.5 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Experience, Skills, Projects.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 3.5,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Projects"
+      ],
+      "score_breakdown": {
+        "semantic": 0.61,
+        "keyword": 0.06,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.625
+      }
+    },
+    {
+      "candidate_name": "Samuel Krishnan",
+      "resume_path": "data/resumes/samuel_krishnan.pdf",
+      "match_score": 39,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Selenium, Java, Postman, JUnit, Python, SQL, Agile, CI/CD"
+      ],
+      "reasoning": "Weak match: 7.0 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Experience, Skills, Summary.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 7.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.459,
+        "keyword": 0.251,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.556
+      }
+    },
+    {
+      "candidate_name": "Lucas Lopez",
+      "resume_path": "data/resumes/lucas_lopez.docx",
+      "match_score": 39,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Python, Spark, Airflow, SQL, ETL, Snowflake, Scala, Docker, Terraform"
+      ],
+      "reasoning": "Weak match: 5.0 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 5.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.531,
+        "keyword": 0.059,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.589
+      }
+    },
+    {
+      "candidate_name": "Omar Joshi",
+      "resume_path": "data/resumes/omar_joshi.pdf",
+      "match_score": 39,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Python, Spark, SQL, Snowflake, Kafka, dbt"
+      ],
+      "reasoning": "Weak match: 2.0 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Summary, Skills, Projects.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 2.0,
+      "matched_sections": [
+        "Summary",
+        "Skills",
+        "Projects"
+      ],
+      "score_breakdown": {
+        "semantic": 0.529,
+        "keyword": 0.064,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.588
+      }
+    },
+    {
+      "candidate_name": "Sofia Ali",
+      "resume_path": "data/resumes/sofia_ali.txt",
+      "match_score": 37,
+      "matched_skills": [],
+      "relevant_excerpts": [
+        "- Mentored two junior data scientists and reviewed modelling code for statistical rigour"
+      ],
+      "reasoning": "Weak match: 3.0 yrs experience (role asks for 2+); gaps: SQL, Tableau, Power BI, Statistics; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 3.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.656,
+        "keyword": 0.051,
+        "skill_coverage": 0.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.645
+      }
+    },
+    {
+      "candidate_name": "Divya Okafor",
+      "resume_path": "data/resumes/divya_okafor.pdf",
+      "match_score": 37,
+      "matched_skills": [
+        "SQL"
+      ],
+      "relevant_excerpts": [
+        "Selenium, Java, Postman, Cypress, SQL, CI/CD, Agile"
+      ],
+      "reasoning": "Weak match: 4.0 yrs experience (role asks for 2+); covers 1/5 JD skills (SQL); gaps: Tableau, Power BI, Statistics, Excel; strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [
+        "Tableau",
+        "Power BI",
+        "Statistics",
+        "Excel"
+      ],
+      "experience_years": 4.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.393,
+        "keyword": 0.253,
+        "skill_coverage": 0.2,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.527
+      }
+    }
+  ],
+  "parsed_requirements": {
+    "must_have": {},
+    "min_years": 2,
+    "required_skills": [
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Statistics",
+      "Excel"
+    ],
+    "nice_to_have": []
+  },
+  "filtered_out": [
+    {
+      "candidate_name": "Ethan Reddy",
+      "resume_path": "data/resumes/ethan_reddy.docx",
+      "reasons": [
+        "1.5 yrs experience < required 2+"
+      ]
+    },
+    {
+      "candidate_name": "Ravi Mensah",
+      "resume_path": "data/resumes/ravi_mensah.pdf",
+      "reasons": [
+        "1.5 yrs experience < required 2+"
+      ]
+    },
+    {
+      "candidate_name": "Tariq Berg",
+      "resume_path": "data/resumes/tariq_berg.docx",
+      "reasons": [
+        "1.0 yrs experience < required 2+"
+      ]
+    },
+    {
+      "candidate_name": "Wei Adeyemi",
+      "resume_path": "data/resumes/wei_adeyemi.pdf",
+      "reasons": [
+        "1.5 yrs experience < required 2+"
+      ]
+    }
+  ],
+  "retrieval": {
+    "mode": "hybrid",
+    "embedder": "huggingface:BAAI/bge-small-en-v1.5",
+    "k": 10,
+    "candidates_scored": 32,
+    "filters_applied": true,
+    "latency_ms": {
+      "semantic": 49.9,
+      "keyword": 1.1,
+      "total": 56.6
+    }
+  }
+}

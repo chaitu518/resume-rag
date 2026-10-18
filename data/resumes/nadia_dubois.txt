@@ -1,0 +1,35 @@
+Nadia Dubois
+Data Analyst
+nadia.dubois@example.com | +1-555-326-2035 | linkedin.com/in/nadia
+
+About Me
+Results-driven data analyst (6+ yrs) focused on SQL and Tableau. Comfortable owning features end to end and working with cross-functional teams.
+
+Professional Experience
+Data Analyst - Vertex Payments
+Oct 2025 - Present
+- Wrote complex SQL queries and built Tableau dashboards tracking revenue and retention
+- Built Power BI reports for leadership on funnel conversion and churn drivers
+
+Business Intelligence Analyst - Bluepeak Systems
+Feb 2022 - Sep 2025
+- Automated weekly reporting in Excel and Python, saving the team 10 hours a week
+- Ran A/B tests and Statistics reviews for pricing experiments across 3 markets
+
+Product Analyst - Quantia Labs
+Nov 2020 - Jan 2022
+- Built Power BI reports for leadership on funnel conversion and churn drivers
+- Automated weekly reporting in Excel and Python, saving the team 10 hours a week
+
+Tech Stack
+SQL, Tableau, Excel, Statistics, R, Snowflake, GCP, Pandas
+
+EDUCATION
+B.Tech in Computer Science, University of Toronto (2018)
+
+PROJECTS
+- Customer segmentation with k-means
+- Sales forecasting dashboard
+
+CERTIFICATIONS
+- Tableau Desktop Specialist

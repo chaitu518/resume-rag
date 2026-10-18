@@ -1,0 +1,30 @@
+Sofia Ali
+Senior ML Engineer
+sofia.ali@example.com | +1-555-951-6038 | linkedin.com/in/sofia
+
+Professional Summary
+Results-driven senior ml engineer (3+ yrs) focused on Python and PyTorch. Comfortable owning features end to end and working with cross-functional teams.
+
+EXPERIENCE
+Senior ML Engineer - Northwind Analytics
+Mar 2025 - Present
+- Fine-tuned transformer models for NLP tasks such as entity extraction and intent classification
+- Led A/B tests for a recommendation model that raised click-through rate by 7%
+- Designed feature pipelines with Pandas and scikit-learn, cutting training data prep time from days to hours
+- Built and deployed Machine Learning models in Python serving 2M+ predictions per day with p95 latency under 80ms
+
+Senior ML Engineer - Pixelcraft Studios
+Nov 2023 - Feb 2025
+- Productionised a retrieval-augmented question answering service over 40k internal documents
+- Trained PyTorch classifiers for fraud detection, lifting recall by 18% over the rules baseline
+- Mentored two junior data scientists and reviewed modelling code for statistical rigour
+
+Technical Skills
+Python, PyTorch, Pandas, NLP, Docker, RAG, MLOps
+
+Academic Background
+M.Tech in Artificial Intelligence, University of Michigan (2021)
+
+PROJECTS
+- Resume screening classifier using sentence embeddings
+- Medical image segmentation with U-Net

@@ -1,0 +1,32 @@
+Grace Obi
+Software Engineer
+grace.obi@example.com | +1-555-779-3041 | linkedin.com/in/grace
+
+Profile
+Engineer with 5+ years in Python, Django and FastAPI, passionate about clean design, measurable impact and mentoring.
+
+Professional Experience
+Software Engineer - Lumen Logistics
+Mar 2023 - Present
+- Designed REST APIs for partner integrations with OAuth2 and rate limiting
+- Built Django and FastAPI services in Python powering the customer onboarding flow
+- Wrote async background workers for invoice generation processing 500k jobs per day
+
+Backend Engineer (Python) - Cedar Health Tech
+Nov 2021 - Feb 2023
+- Containerised services with Docker and automated deployments through CI pipelines
+- Optimised PostgreSQL schemas and indexes, reducing report generation time by 70%
+- Added structured logging and tracing, making production debugging much faster
+
+Tech Stack
+Python, Django, FastAPI, Postgres, REST APIs, Docker, RabbitMQ, Redis, Pytest
+
+Education
+B.Sc in Computer Science, Anna University (2021)
+
+Key Projects
+- URL shortener with analytics
+- Expense tracker API
+
+Licenses & Certifications
+- Python Institute PCAP

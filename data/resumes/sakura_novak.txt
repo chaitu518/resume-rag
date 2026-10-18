@@ -1,0 +1,32 @@
+Sakura Novak
+Platform Engineer
+sakura.novak@example.com | +1-555-460-8434 | linkedin.com/in/sakura
+
+Profile
+Engineer with 4+ years in Kubernetes, Terraform and AWS, passionate about clean design, measurable impact and mentoring.
+
+Professional Experience
+Platform Engineer - Nimbus Cloud
+Oct 2023 - Present
+- Built CI/CD pipelines with GitHub Actions and ArgoCD, cutting release time from 2 days to 30 minutes
+- Managed 40+ Kubernetes clusters (EKS) running 600 services with zero-downtime upgrades
+- Led incident reviews and capacity planning for peak traffic events
+
+Site Reliability Engineer - Sagewell Bank
+Nov 2022 - Sep 2023
+- Hardened Linux base images and container builds with Docker, passing SOC2 audit
+- Introduced SLOs and alerting with Prometheus and Grafana, reducing pager noise by 50%
+- Wrote Terraform modules for VPCs, IAM and databases, making all AWS infra reproducible
+
+Core Skills
+Kubernetes, Terraform, AWS, Linux, Bash, GCP, Kafka
+
+EDUCATION
+B.E. in Computer Science, National University of Singapore (2020)
+
+PROJECTS
+- Cost dashboard for cloud spend
+- Self-service preview environments on Kubernetes
+
+Licenses & Certifications
+- AWS Certified Solutions Architect - Associate

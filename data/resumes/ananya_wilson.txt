@@ -1,0 +1,29 @@
+Ananya Wilson
+Senior Data Engineer
+ananya.wilson@example.com | +1-555-737-9751 | linkedin.com/in/ananya
+
+SUMMARY
+Engineer with 3+ years in Python, Spark and Airflow, passionate about clean design, measurable impact and mentoring.
+
+Employment History
+Senior Data Engineer - Lumen Logistics
+May 2024 - Present
+- Modelled warehouse layers in Snowflake using dbt, giving analysts trusted, documented tables
+- Built batch and streaming ETL pipelines with Spark processing 3TB of events per day
+- Partnered with ML engineers to deliver feature tables for model training
+
+Senior Data Engineer - Trailhead Mobility
+May 2023 - Apr 2024
+- Orchestrated 200+ DAGs in Airflow with SLAs, retries and data quality checks
+- Implemented CDC ingestion from operational databases using Debezium
+- Rewrote legacy Hive jobs in Spark (PySpark), cutting compute cost by 35%
+
+SKILLS
+Python, Spark, Airflow, SQL, ETL, Kafka, dbt, Docker
+
+EDUCATION
+M.S. in Data Science, IIIT Hyderabad (2022)
+
+Personal Projects
+- Data lake on S3 with Iceberg tables
+- Real-time clickstream pipeline

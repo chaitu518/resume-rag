@@ -1,0 +1,29 @@
+Isabel Haddad
+Applied Scientist
+isabel.haddad@example.com | +1-555-847-2557 | linkedin.com/in/isabel
+
+Profile
+Results-driven applied scientist (4+ yrs) focused on Python and Machine Learning. Comfortable owning features end to end and working with cross-functional teams.
+
+Tech Stack
+Python, Machine Learning, PyTorch, scikit-learn, NLP, Spark, Deep Learning, SQL
+
+Professional Experience
+Applied Scientist - Aurora Media
+Sep 2024 - Present
+- Built and deployed Machine Learning models in Python serving 2M+ predictions per day with p95 latency under 80ms
+- Fine-tuned transformer models for NLP tasks such as entity extraction and intent classification
+- Productionised a retrieval-augmented question answering service over 40k internal documents
+
+Senior ML Engineer - Quantia Labs
+Nov 2022 - Aug 2024
+- Led A/B tests for a recommendation model that raised click-through rate by 7%
+- Set up experiment tracking and model registry (MLflow) so the team could reproduce every run
+- Designed feature pipelines with Pandas and scikit-learn, cutting training data prep time from days to hours
+
+Personal Projects
+- Churn prediction with gradient boosting
+- Medical image segmentation with U-Net
+
+Education
+M.S. in Computer Science, TU Munich (2021)

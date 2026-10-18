@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume Matcher</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1b1f24; --muted:#5d6670; --line:#e3e6ea; --accent:#2f5bd3; --good:#1f8a4c; --mid:#b7791f; --low:#b4423a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14171b; --card:#1d2126; --ink:#e8eaed; --muted:#9aa3ad; --line:#2c3238; --accent:#7ea2ff; --good:#4cc283; --mid:#e0ad4f; --low:#ef7d74; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:20px 24px 8px; } h1 { margin:0; font-size:22px; } header p { margin:4px 0 0; color:var(--muted); }
+  main { display:grid; grid-template-columns: minmax(300px, 420px) 1fr; gap:20px; padding:16px 24px 40px; }
+  @media (max-width: 860px) { main { grid-template-columns:1fr; padding:12px 16px; } }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  textarea { width:100%; min-height:280px; padding:10px; border:1px solid var(--line); border-radius:8px; background:transparent; color:var(--ink); font:13px/1.45 ui-monospace, Menlo, monospace; resize:vertical; }
+  label { font-size:13px; color:var(--muted); display:block; margin:10px 0 4px; }
+  select, input[type=number] { padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--ink); }
+  .row { display:flex; gap:12px; flex-wrap:wrap; align-items:end; }
+  button { margin-top:14px; width:100%; padding:10px; border:0; border-radius:8px; background:var(--accent); color:#fff; font-weight:600; cursor:pointer; }
+  button:disabled { opacity:.6; cursor:wait; }
+  .meta { color:var(--muted); font-size:13px; margin-bottom:10px; }
+  .cand { border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:12px; background:var(--card); }
+  .top { display:flex; justify-content:space-between; gap:10px; align-items:baseline; }
+  .name { font-weight:650; font-size:16px; } .path { color:var(--muted); font-size:12px; }
+  .score { font-size:24px; font-weight:700; } .s-hi{color:var(--good)} .s-mid{color:var(--mid)} .s-lo{color:var(--low)}
+  .chips span { display:inline-block; font-size:12px; padding:2px 8px; margin:4px 4px 0 0; border-radius:999px; border:1px solid var(--line); }
+  .chips .miss { color:var(--low); }
+  .reason { margin:8px 0 4px; } blockquote { margin:6px 0; padding:4px 10px; border-left:3px solid var(--line); color:var(--muted); font-size:13px; }
+  .bars { display:grid; grid-template-columns: 110px 1fr 36px; gap:4px 8px; font-size:12px; color:var(--muted); margin-top:8px; align-items:center; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; } .bar i { display:block; height:100%; background:var(--accent); }
+  details { margin-top:8px; font-size:13px; } pre { white-space:pre-wrap; font-size:12px; }
+</style>
+</head>
+<body>
+<header><h1>Resume Matcher</h1><p>Hybrid RAG search over the indexed resumes: semantic + keyword, must-have filters, 0-100 scoring.</p></header>
+<main>
+  <section class="panel">
+    <label for="sample">Load a sample job description</label>
+    <select id="sample"><option value="">— choose —</option></select>
+    <label for="jd">Job description</label>
+    <textarea id="jd" placeholder="Paste a job description..."></textarea>
+    <div class="row">
+      <div><label for="mode">Search mode</label>
+        <select id="mode"><option>hybrid</option><option>semantic</option><option>keyword</option></select></div>
+      <div><label for="k">Top K</label><input id="k" type="number" value="10" min="1" max="50" style="width:70px"></div>
+      <div><label><input type="checkbox" id="filters" checked> Must-have filters</label></div>
+    </div>
+    <button id="go">Find matches</button>
+    <div class="meta" id="health" style="margin-top:10px"></div>
+  </section>
+  <section>
+    <div class="meta" id="summary">Results appear here.</div>
+    <div id="results"></div>
+  </section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let samples = [];
+fetch('/api/health').then(r=>r.json()).then(h => $('health').textContent = `Index: ${h.resumes} resumes, ${h.chunks} chunks · ${h.embedder}`);
+fetch('/api/job-descriptions').then(r=>r.json()).then(list => {
+  samples = list;
+  list.forEach(j => $('sample').insertAdjacentHTML('beforeend', `<option value="${esc(j.id)}">${esc(j.id)}</option>`));
+});
+$('sample').onchange = e => { const j = samples.find(s => s.id === e.target.value); if (j) $('jd').value = j.text; };
+function bar(label, v){ return `<span>${label}</span><div class="bar"><i style="width:${Math.round(v*100)}%"></i></div><span>${Math.round(v*100)}</span>`; }
+$('go').onclick = async () => {
+  const jd = $('jd').value.trim(); if (jd.length < 20) { $('summary').textContent = 'Paste a longer job description.'; return; }
+  $('go').disabled = true; $('summary').textContent = 'Searching...';
+  try {
+    const r = await fetch('/api/match', { method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ job_description: jd, k: +$('k').value, mode: $('mode').value, apply_filters: $('filters').checked }) });
+    const d = await r.json();
+    const req = d.parsed_requirements;
+    const must = Object.entries(req.must_have).map(([s,y]) => y ? `${s} (${y}+ yrs)` : s).join(', ') || 'none';
+    $('summary').innerHTML = `<b>${d.top_matches.length}</b> matches · ${d.retrieval.latency_ms.total} ms · must-have: ${esc(must)} · min years: ${req.min_years || '—'} · filtered out: ${d.filtered_out.length}`;
+    $('results').innerHTML = d.top_matches.map(m => {
+      const cls = m.match_score >= 75 ? 's-hi' : m.match_score >= 50 ? 's-mid' : 's-lo';
+      const b = m.score_breakdown;
+      return `<div class="cand"><div class="top"><div><div class="name">${esc(m.candidate_name)}</div><div class="path">${esc(m.resume_path)} · ${m.experience_years} yrs</div></div><div class="score ${cls}">${m.match_score}</div></div>
+        <div class="chips">${m.matched_skills.map(s=>`<span>${esc(s)}</span>`).join('')}${m.missing_skills.map(s=>`<span class="miss">− ${esc(s)}</span>`).join('')}</div>
+        <div class="reason">${esc(m.reasoning)}</div>
+        ${m.relevant_excerpts.map(x=>`<blockquote>${esc(x)}</blockquote>`).join('')}
+        <div class="bars">${bar('Semantic', b.semantic)}${bar('Keyword', b.keyword)}${bar('Skill coverage', b.skill_coverage)}${bar('Experience fit', b.experience_fit)}</div></div>`;
+    }).join('') + (d.filtered_out.length ? `<details><summary>${d.filtered_out.length} candidates removed by must-have filters</summary><pre>${esc(d.filtered_out.map(f=>`${f.candidate_name}: ${f.reasons.join('; ')}`).join('\n'))}</pre></details>` : '');
+  } catch (e) { $('summary').textContent = 'Error: ' + e; }
+  $('go').disabled = false;
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+Ifeoma Iyer
+UI Engineer
+ifeoma.iyer@example.com | +1-555-631-8245 | linkedin.com/in/ifeoma
+
+Profile
+Engineer with 3+ years in React, TypeScript and JavaScript, passionate about clean design, measurable impact and mentoring.
+
+Technical Skills
+React, TypeScript, JS (ES6+), HTML/CSS, Next.js, Docker, Cypress, Vue.js
+
+Employment History
+UI Engineer - Nimbus Cloud
+Sep 2025 - Present
+- Migrated a legacy SPA to Next.js with server-side rendering, improving LCP by 40%
+- Wrote end-to-end tests with Cypress and raised release confidence
+- Managed complex client state with Redux and React Query for a trading dashboard
+
+Senior React Developer - Kestrel AI
+Nov 2023 - Aug 2025
+- Built a component library in React and TypeScript used by 6 product teams
+- Worked with designers to ship a new onboarding flow that increased activation by 12%
+- Implemented accessible, responsive layouts with HTML/CSS meeting WCAG 2.1 AA
+
+Personal Projects
+- Personal portfolio with Next.js
+- Real-time collaborative whiteboard
+
+Education
+B.Des in Interaction Design, IIT Madras (2021)

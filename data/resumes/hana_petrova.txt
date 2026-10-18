@@ -1,0 +1,32 @@
+Hana Petrova
+Software Engineer - Backend
+hana.petrova@example.com | +1-555-736-2638 | linkedin.com/in/hana
+
+SUMMARY
+Results-driven software engineer - backend (4+ yrs) focused on Java and Spring Boot. Comfortable owning features end to end and working with cross-functional teams.
+
+Technical Skills
+Java, Spring Boot, MySQL, Kafka, Docker, MongoDB, PostgreSQL
+
+Professional Experience
+Software Engineer - Backend - Lumen Logistics
+Feb 2025 - Present
+- Owned on-call for three services and wrote runbooks that halved mean time to recovery
+- Tuned MySQL queries and added Redis caching, cutting p99 latency from 900ms to 120ms
+- Designed REST APIs consumed by web and mobile clients, with contract tests and versioning
+
+Senior Java Developer - Bluepeak Systems
+May 2022 - Jan 2025
+- Developed Spring Boot microservices in Java 17 handling 15k requests per second for the payments platform
+- Introduced unit and integration testing standards, raising coverage from 45% to 82%
+- Migrated a monolith to event-driven Microservices using Kafka, reducing order processing delay by 60%
+
+PROJECTS
+- Ticket booking system with seat locking
+- Rate limiter library using token bucket
+
+Education
+M.S. in Software Engineering, BITS Pilani (2022)
+
+CERTIFICATIONS
+- Oracle Certified Professional Java SE 17

@@ -1,0 +1,416 @@
+{
+  "job_description": "Site Reliability / DevOps Engineer - Nimbus Cloud\nHelp us run a reliable, secure platform on AWS.\n\nYou will:\n- Operate Kubernetes clusters and container workloads at scale\n- Write infrastructure as code with Terraform\n- Build CI/CD pipelines and observability (Prometheus/Grafana)\n\nRequirements:\n- 4+ years in DevOps/SRE roles\n- Kubernetes and Terraform are must-haves\n- AWS, Docker, Linux, scripting in Python or Bash",
+  "top_matches": [
+    {
+      "candidate_name": "Sakura Novak",
+      "resume_path": "data/resumes/sakura_novak.txt",
+      "match_score": 93,
+      "matched_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Prometheus",
+        "Docker",
+        "Linux",
+        "Bash"
+      ],
+      "relevant_excerpts": [
+        "Built CI/CD pipelines with GitHub Actions and ArgoCD, cutting release time from 2 days to 30 minutes",
+        "Managed 40+ Kubernetes clusters (EKS) running 600 services with zero-downtime upgrades",
+        "Hardened Linux base images and container builds with Docker, passing SOC2 audit"
+      ],
+      "reasoning": "Strong match: 4.0 yrs experience (role asks for 4+); covers 8/9 JD skills (AWS, Kubernetes, Terraform, CI/CD, Prometheus, Docker); gaps: Python; strongest evidence in Experience.",
+      "missing_skills": [
+        "Python"
+      ],
+      "experience_years": 4.0,
+      "matched_sections": [
+        "Experience"
+      ],
+      "score_breakdown": {
+        "semantic": 0.936,
+        "keyword": 0.919,
+        "skill_coverage": 0.909,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.771
+      }
+    },
+    {
+      "candidate_name": "Chloe Pillai",
+      "resume_path": "data/resumes/chloe_pillai.pdf",
+      "match_score": 90,
+      "matched_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Prometheus",
+        "Docker",
+        "Linux",
+        "Python",
+        "Bash"
+      ],
+      "relevant_excerpts": [
+        "Built CI/CD pipelines with GitHub Actions and ArgoCD, cutting release time from 2 days to 30",
+        "Hardened Linux base images and container builds with Docker, passing SOC2 audit",
+        "Introduced SLOs and alerting with Prometheus and Grafana, reducing pager noise by 50%"
+      ],
+      "reasoning": "Strong match: 10.0 yrs experience (role asks for 4+); covers 9/9 JD skills (AWS, Kubernetes, Terraform, CI/CD, Prometheus, Docker); strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [],
+      "experience_years": 10.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.757,
+        "keyword": 0.969,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.69
+      }
+    },
+    {
+      "candidate_name": "Diego Rossi",
+      "resume_path": "data/resumes/diego_rossi.docx",
+      "match_score": 90,
+      "matched_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Prometheus",
+        "Docker",
+        "Linux",
+        "Python",
+        "Bash"
+      ],
+      "relevant_excerpts": [
+        "Managed 40+ Kubernetes clusters (EKS) running 600 services with zero-downtime upgrades",
+        "Wrote Terraform modules for VPCs, IAM and databases, making all AWS infra reproducible",
+        "Introduced SLOs and alerting with Prometheus and Grafana, reducing pager noise by 50%"
+      ],
+      "reasoning": "Strong match: 6.0 yrs experience (role asks for 4+); covers 9/9 JD skills (AWS, Kubernetes, Terraform, CI/CD, Prometheus, Docker); strongest evidence in Experience, Skills, Projects.",
+      "missing_skills": [],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Projects"
+      ],
+      "score_breakdown": {
+        "semantic": 0.742,
+        "keyword": 1.0,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.684
+      }
+    }
+  ],
+  "parsed_requirements": {
+    "must_have": {
+      "Kubernetes": null,
+      "Terraform": null
+    },
+    "min_years": 4,
+    "required_skills": [
+      "AWS",
+      "CI/CD",
+      "Prometheus",
+      "Docker",
+      "Linux",
+      "Python",
+      "Bash"
+    ],
+    "nice_to_have": []
+  },
+  "filtered_out": [
+    {
+      "candidate_name": "Aarav Sharma",
+      "resume_path": "data/resumes/aarav_sharma.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Ananya Wilson",
+      "resume_path": "data/resumes/ananya_wilson.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "3.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Arjun Menon",
+      "resume_path": "data/resumes/arjun_menon.pdf",
+      "reasons": [
+        "2.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Divya Okafor",
+      "resume_path": "data/resumes/divya_okafor.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Elena Eze",
+      "resume_path": "data/resumes/elena_eze.pdf",
+      "reasons": [
+        "missing must-have skill: Terraform",
+        "2.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Emma Kapoor",
+      "resume_path": "data/resumes/emma_kapoor.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Ethan Reddy",
+      "resume_path": "data/resumes/ethan_reddy.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "1.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Fatima Costa",
+      "resume_path": "data/resumes/fatima_costa.pdf",
+      "reasons": [
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Grace Obi",
+      "resume_path": "data/resumes/grace_obi.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Hana Petrova",
+      "resume_path": "data/resumes/hana_petrova.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Ifeoma Iyer",
+      "resume_path": "data/resumes/ifeoma_iyer.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "3.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Isabel Haddad",
+      "resume_path": "data/resumes/isabel_haddad.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Kenji Fischer",
+      "resume_path": "data/resumes/kenji_fischer.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "3.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Kwame Hassan",
+      "resume_path": "data/resumes/kwame_hassan.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "3.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Leila Rao",
+      "resume_path": "data/resumes/leila_rao.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "2.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Liam Silva",
+      "resume_path": "data/resumes/liam_silva.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Lucas Lopez",
+      "resume_path": "data/resumes/lucas_lopez.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes"
+      ]
+    },
+    {
+      "candidate_name": "Mateo Chen",
+      "resume_path": "data/resumes/mateo_chen.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Mei Kim",
+      "resume_path": "data/resumes/mei_kim.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Nadia Dubois",
+      "resume_path": "data/resumes/nadia_dubois.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Noah Aziz",
+      "resume_path": "data/resumes/noah_aziz.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Olivia Karim",
+      "resume_path": "data/resumes/olivia_karim.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "2.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Omar Joshi",
+      "resume_path": "data/resumes/omar_joshi.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "2.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Priya Tanaka",
+      "resume_path": "data/resumes/priya_tanaka.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Ravi Mensah",
+      "resume_path": "data/resumes/ravi_mensah.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "1.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Rohan Brooks",
+      "resume_path": "data/resumes/rohan_brooks.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Samuel Krishnan",
+      "resume_path": "data/resumes/samuel_krishnan.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Sofia Ali",
+      "resume_path": "data/resumes/sofia_ali.txt",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "3.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Tariq Berg",
+      "resume_path": "data/resumes/tariq_berg.docx",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "1.0 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Vikram Patel",
+      "resume_path": "data/resumes/vikram_patel.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    },
+    {
+      "candidate_name": "Wei Adeyemi",
+      "resume_path": "data/resumes/wei_adeyemi.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform",
+        "1.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Yusuf Garcia",
+      "resume_path": "data/resumes/yusuf_garcia.pdf",
+      "reasons": [
+        "missing must-have skill: Terraform",
+        "2.5 yrs experience < required 4+"
+      ]
+    },
+    {
+      "candidate_name": "Zara Rahimi",
+      "resume_path": "data/resumes/zara_rahimi.pdf",
+      "reasons": [
+        "missing must-have skill: Kubernetes",
+        "missing must-have skill: Terraform"
+      ]
+    }
+  ],
+  "retrieval": {
+    "mode": "hybrid",
+    "embedder": "huggingface:BAAI/bge-small-en-v1.5",
+    "k": 10,
+    "candidates_scored": 3,
+    "filters_applied": true,
+    "latency_ms": {
+      "semantic": 41.1,
+      "keyword": 2.0,
+      "total": 46.7
+    }
+  }
+}

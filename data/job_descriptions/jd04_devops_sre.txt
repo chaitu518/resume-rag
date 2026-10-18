@@ -1,0 +1,12 @@
+Site Reliability / DevOps Engineer - Nimbus Cloud
+Help us run a reliable, secure platform on AWS.
+
+You will:
+- Operate Kubernetes clusters and container workloads at scale
+- Write infrastructure as code with Terraform
+- Build CI/CD pipelines and observability (Prometheus/Grafana)
+
+Requirements:
+- 4+ years in DevOps/SRE roles
+- Kubernetes and Terraform are must-haves
+- AWS, Docker, Linux, scripting in Python or Bash

@@ -1,0 +1,14 @@
+Backend Engineer (Java) - Helix Fintech
+Join our payments team building high-throughput, event-driven services.
+
+What you'll do:
+- Build Spring Boot microservices and REST APIs used by millions of customers
+- Design event-driven flows with Kafka
+- Tune MySQL/PostgreSQL and Redis for low latency
+
+Must have:
+- 4+ years Java
+- Spring Boot
+
+Also expected: Microservices, Kafka, REST APIs.
+Nice to have: Kubernetes, AWS, System Design experience

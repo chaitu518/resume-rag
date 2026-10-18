@@ -1,0 +1,12 @@
+Data Analyst - Sagewell Bank
+Turn data into decisions for product and leadership teams.
+
+Responsibilities:
+- Write SQL to answer business questions
+- Build dashboards in Tableau or Power BI
+- Run A/B tests and statistical analysis
+
+Requirements:
+- 2+ years as a data or BI analyst
+- Advanced SQL and Excel
+- Tableau or Power BI, solid statistics

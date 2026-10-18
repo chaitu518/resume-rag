@@ -1,0 +1,12 @@
+Frontend Engineer (React) - Pixelcraft Studios
+Build fast, accessible web experiences for our creative tools.
+
+Responsibilities:
+- Develop UI features in React and TypeScript
+- Own our component library and design system
+- Improve performance with Next.js server-side rendering
+
+Requirements:
+- 3+ years React
+- Strong TypeScript, JavaScript, HTML/CSS
+- State management (Redux or similar), testing with Cypress a plus

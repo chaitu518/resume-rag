@@ -1,0 +1,13 @@
+Senior Machine Learning Engineer - Kestrel AI
+We are looking for a Senior ML Engineer to build and ship models that power our recommendation and NLP products.
+
+Responsibilities:
+- Design, train and deploy machine learning models to production
+- Build NLP features such as entity extraction and semantic search using transformers and LLMs
+- Own the MLOps lifecycle: experiment tracking, model registry, monitoring
+
+Requirements:
+- 5+ years Python experience
+- Strong background in Machine Learning and Deep Learning (PyTorch or TensorFlow)
+- Experience with NLP and retrieval systems (RAG is a plus)
+- Familiarity with AWS, Docker and MLOps tooling

@@ -1,0 +1,423 @@
+{
+  "job_description": "Frontend Engineer (React) - Pixelcraft Studios\nBuild fast, accessible web experiences for our creative tools.\n\nResponsibilities:\n- Develop UI features in React and TypeScript\n- Own our component library and design system\n- Improve performance with Next.js server-side rendering\n\nRequirements:\n- 3+ years React\n- Strong TypeScript, JavaScript, HTML/CSS\n- State management (Redux or similar), testing with Cypress a plus",
+  "top_matches": [
+    {
+      "candidate_name": "Zara Rahimi",
+      "resume_path": "data/resumes/zara_rahimi.pdf",
+      "match_score": 94,
+      "matched_skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux",
+        "Cypress"
+      ],
+      "relevant_excerpts": [
+        "Migrated a legacy SPA to Next.js with server-side rendering, improving LCP by 40%",
+        "Managed complex client state with Redux and React Query for a trading dashboard",
+        "Senior React Developer - Bluepeak Systems"
+      ],
+      "reasoning": "Strong match: 8.0 yrs experience (role asks for 3+); covers 7/7 JD skills (React, TypeScript, Next.js, JavaScript, HTML/CSS, Redux); strongest evidence in Experience, Summary, Skills.",
+      "missing_skills": [],
+      "experience_years": 8.0,
+      "matched_sections": [
+        "Experience",
+        "Summary",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.874,
+        "keyword": 0.959,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.743
+      }
+    },
+    {
+      "candidate_name": "Noah Aziz",
+      "resume_path": "data/resumes/noah_aziz.docx",
+      "match_score": 93,
+      "matched_skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux",
+        "Cypress"
+      ],
+      "relevant_excerpts": [
+        "Migrated a legacy SPA to Next.js with server-side rendering, improving LCP by 40%",
+        "Built a component library in React and TypeScript used by 6 product teams",
+        "Senior React Developer - Pixelcraft Studios"
+      ],
+      "reasoning": "Strong match: 5.0 yrs experience (role asks for 3+); covers 7/7 JD skills (React, TypeScript, Next.js, JavaScript, HTML/CSS, Redux); strongest evidence in Experience, Skills.",
+      "missing_skills": [],
+      "experience_years": 5.0,
+      "matched_sections": [
+        "Experience",
+        "Skills"
+      ],
+      "score_breakdown": {
+        "semantic": 0.829,
+        "keyword": 0.98,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.723
+      }
+    },
+    {
+      "candidate_name": "Ifeoma Iyer",
+      "resume_path": "data/resumes/ifeoma_iyer.txt",
+      "match_score": 92,
+      "matched_skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux",
+        "Cypress"
+      ],
+      "relevant_excerpts": [
+        "Migrated a legacy SPA to Next.js with server-side rendering, improving LCP by 40%",
+        "Wrote end-to-end tests with Cypress and raised release confidence",
+        "Managed complex client state with Redux and React Query for a trading dashboard"
+      ],
+      "reasoning": "Strong match: 3.0 yrs experience (role asks for 3+); covers 7/7 JD skills (React, TypeScript, Next.js, JavaScript, HTML/CSS, Redux); strongest evidence in Skills, Experience, Summary.",
+      "missing_skills": [],
+      "experience_years": 3.0,
+      "matched_sections": [
+        "Skills",
+        "Experience",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.803,
+        "keyword": 1.0,
+        "skill_coverage": 1.0,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.711
+      }
+    },
+    {
+      "candidate_name": "Emma Kapoor",
+      "resume_path": "data/resumes/emma_kapoor.pdf",
+      "match_score": 48,
+      "matched_skills": [
+        "React"
+      ],
+      "relevant_excerpts": [
+        "Kotlin, Android, iOS, REST APIs, Java, GraphQL, React Native, CI/CD"
+      ],
+      "reasoning": "Partial match: 6.0 yrs experience (role asks for 3+); covers 1/7 JD skills (React); gaps: TypeScript, Next.js, JavaScript, HTML/CSS; strongest evidence in Experience.",
+      "missing_skills": [
+        "TypeScript",
+        "Next.js",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux"
+      ],
+      "experience_years": 6.0,
+      "matched_sections": [
+        "Experience"
+      ],
+      "score_breakdown": {
+        "semantic": 0.685,
+        "keyword": 0.114,
+        "skill_coverage": 0.267,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.658
+      }
+    },
+    {
+      "candidate_name": "Kenji Fischer",
+      "resume_path": "data/resumes/kenji_fischer.docx",
+      "match_score": 48,
+      "matched_skills": [
+        "React"
+      ],
+      "relevant_excerpts": [
+        "Kotlin, Android, Swift, iOS, Flutter, CI/CD, React Native, Java"
+      ],
+      "reasoning": "Partial match: 3.0 yrs experience (role asks for 3+); covers 1/7 JD skills (React); gaps: TypeScript, Next.js, JavaScript, HTML/CSS; strongest evidence in Experience, Skills, Summary.",
+      "missing_skills": [
+        "TypeScript",
+        "Next.js",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux"
+      ],
+      "experience_years": 3.0,
+      "matched_sections": [
+        "Experience",
+        "Skills",
+        "Summary"
+      ],
+      "score_breakdown": {
+        "semantic": 0.669,
+        "keyword": 0.117,
+        "skill_coverage": 0.267,
+        "experience_fit": 1.0,
+        "raw_cosine": 0.651
+      }
+    }
+  ],
+  "parsed_requirements": {
+    "must_have": {
+      "React": 3
+    },
+    "min_years": 3,
+    "required_skills": [
+      "TypeScript",
+      "Next.js",
+      "JavaScript",
+      "HTML/CSS",
+      "Redux"
+    ],
+    "nice_to_have": [
+      "Cypress"
+    ]
+  },
+  "filtered_out": [
+    {
+      "candidate_name": "Aarav Sharma",
+      "resume_path": "data/resumes/aarav_sharma.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Ananya Wilson",
+      "resume_path": "data/resumes/ananya_wilson.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Arjun Menon",
+      "resume_path": "data/resumes/arjun_menon.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "2.5 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Chloe Pillai",
+      "resume_path": "data/resumes/chloe_pillai.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Diego Rossi",
+      "resume_path": "data/resumes/diego_rossi.docx",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Divya Okafor",
+      "resume_path": "data/resumes/divya_okafor.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Elena Eze",
+      "resume_path": "data/resumes/elena_eze.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "2.0 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Ethan Reddy",
+      "resume_path": "data/resumes/ethan_reddy.docx",
+      "reasons": [
+        "missing must-have skill: React",
+        "1.5 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Fatima Costa",
+      "resume_path": "data/resumes/fatima_costa.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Grace Obi",
+      "resume_path": "data/resumes/grace_obi.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Hana Petrova",
+      "resume_path": "data/resumes/hana_petrova.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Isabel Haddad",
+      "resume_path": "data/resumes/isabel_haddad.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Kwame Hassan",
+      "resume_path": "data/resumes/kwame_hassan.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Leila Rao",
+      "resume_path": "data/resumes/leila_rao.txt",
+      "reasons": [
+        "2.0 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Liam Silva",
+      "resume_path": "data/resumes/liam_silva.docx",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Lucas Lopez",
+      "resume_path": "data/resumes/lucas_lopez.docx",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Mateo Chen",
+      "resume_path": "data/resumes/mateo_chen.docx",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Mei Kim",
+      "resume_path": "data/resumes/mei_kim.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Nadia Dubois",
+      "resume_path": "data/resumes/nadia_dubois.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Olivia Karim",
+      "resume_path": "data/resumes/olivia_karim.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "2.5 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Omar Joshi",
+      "resume_path": "data/resumes/omar_joshi.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "2.0 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Priya Tanaka",
+      "resume_path": "data/resumes/priya_tanaka.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Ravi Mensah",
+      "resume_path": "data/resumes/ravi_mensah.pdf",
+      "reasons": [
+        "1.5 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Rohan Brooks",
+      "resume_path": "data/resumes/rohan_brooks.docx",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Sakura Novak",
+      "resume_path": "data/resumes/sakura_novak.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Samuel Krishnan",
+      "resume_path": "data/resumes/samuel_krishnan.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Sofia Ali",
+      "resume_path": "data/resumes/sofia_ali.txt",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Tariq Berg",
+      "resume_path": "data/resumes/tariq_berg.docx",
+      "reasons": [
+        "missing must-have skill: React",
+        "1.0 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Vikram Patel",
+      "resume_path": "data/resumes/vikram_patel.pdf",
+      "reasons": [
+        "missing must-have skill: React"
+      ]
+    },
+    {
+      "candidate_name": "Wei Adeyemi",
+      "resume_path": "data/resumes/wei_adeyemi.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "1.5 yrs experience < required 3+"
+      ]
+    },
+    {
+      "candidate_name": "Yusuf Garcia",
+      "resume_path": "data/resumes/yusuf_garcia.pdf",
+      "reasons": [
+        "missing must-have skill: React",
+        "2.5 yrs experience < required 3+"
+      ]
+    }
+  ],
+  "retrieval": {
+    "mode": "hybrid",
+    "embedder": "huggingface:BAAI/bge-small-en-v1.5",
+    "k": 10,
+    "candidates_scored": 5,
+    "filters_applied": true,
+    "latency_ms": {
+      "semantic": 32.8,
+      "keyword": 1.3,
+      "total": 40.6
+    }
+  }
+}

@@ -1,0 +1,12 @@
+Data Engineer - Orbital Retail
+We need a data engineer to build reliable batch and streaming pipelines for analytics and ML.
+
+Responsibilities:
+- Build ETL/ELT pipelines with Spark and Airflow
+- Model warehouse tables in Snowflake with dbt
+- Ensure data quality, SLAs and documentation
+
+Requirements:
+- 3+ years of data engineering experience
+- Strong SQL and Python, hands-on Spark
+- Experience with Airflow and a cloud warehouse (Snowflake/BigQuery)

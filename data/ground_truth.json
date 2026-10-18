@@ -1,0 +1,745 @@
+{
+  "reference_date": "2026-10",
+  "candidates": {
+    "data/resumes/aarav_sharma.pdf": {
+      "name": "Aarav Sharma",
+      "family": "ml_engineer",
+      "years": 8,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "Pandas",
+        "AWS",
+        "MLOps",
+        "Deep Learning",
+        "LLMs"
+      ],
+      "degree": "M.S. in Computer Science"
+    },
+    "data/resumes/priya_tanaka.pdf": {
+      "name": "Priya Tanaka",
+      "family": "ml_engineer",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "Pandas",
+        "NLP",
+        "Docker",
+        "LLMs",
+        "AWS",
+        "SQL"
+      ],
+      "degree": "M.Tech in Artificial Intelligence"
+    },
+    "data/resumes/liam_silva.docx": {
+      "name": "Liam Silva",
+      "family": "ml_engineer",
+      "years": 5.5,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Pandas",
+        "NLP",
+        "Spark",
+        "RAG",
+        "Computer Vision"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/sofia_ali.txt": {
+      "name": "Sofia Ali",
+      "family": "ml_engineer",
+      "years": 3,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Pandas",
+        "NLP",
+        "Docker",
+        "RAG",
+        "MLOps"
+      ],
+      "degree": "M.Tech in Artificial Intelligence"
+    },
+    "data/resumes/wei_adeyemi.pdf": {
+      "name": "Wei Adeyemi",
+      "family": "ml_engineer",
+      "years": 1.5,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "MLOps",
+        "Spark"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/fatima_costa.pdf": {
+      "name": "Fatima Costa",
+      "family": "java_backend",
+      "years": 9,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "MySQL",
+        "PostgreSQL",
+        "Docker",
+        "Hibernate",
+        "JUnit",
+        "Kubernetes"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/mateo_chen.docx": {
+      "name": "Mateo Chen",
+      "family": "java_backend",
+      "years": 6,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Kafka",
+        "JUnit",
+        "Docker",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "degree": "MCA"
+    },
+    "data/resumes/hana_petrova.txt": {
+      "name": "Hana Petrova",
+      "family": "java_backend",
+      "years": 4.5,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Kafka",
+        "Docker",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "degree": "M.S. in Software Engineering"
+    },
+    "data/resumes/kwame_hassan.pdf": {
+      "name": "Kwame Hassan",
+      "family": "java_backend",
+      "years": 3.5,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "MySQL",
+        "JUnit",
+        "Hibernate",
+        "MongoDB"
+      ],
+      "degree": "B.E. in Information Technology"
+    },
+    "data/resumes/elena_eze.pdf": {
+      "name": "Elena Eze",
+      "family": "java_backend",
+      "years": 2,
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Kafka",
+        "Kubernetes",
+        "JUnit"
+      ],
+      "degree": "B.E. in Information Technology"
+    },
+    "data/resumes/rohan_brooks.docx": {
+      "name": "Rohan Brooks",
+      "family": "python_backend",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "Pytest",
+        "Celery",
+        "Flask"
+      ],
+      "degree": "B.Sc in Computer Science"
+    },
+    "data/resumes/grace_obi.txt": {
+      "name": "Grace Obi",
+      "family": "python_backend",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "PostgreSQL",
+        "REST APIs",
+        "Docker",
+        "RabbitMQ",
+        "Redis",
+        "Pytest"
+      ],
+      "degree": "B.Sc in Computer Science"
+    },
+    "data/resumes/yusuf_garcia.pdf": {
+      "name": "Yusuf Garcia",
+      "family": "python_backend",
+      "years": 2.5,
+      "skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "PostgreSQL",
+        "REST APIs",
+        "Docker",
+        "Pytest",
+        "Kubernetes"
+      ],
+      "degree": "BCA"
+    },
+    "data/resumes/mei_kim.pdf": {
+      "name": "Mei Kim",
+      "family": "data_engineer",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Spark",
+        "ETL",
+        "Snowflake",
+        "Kafka",
+        "AWS",
+        "Hadoop",
+        "Scala"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/lucas_lopez.docx": {
+      "name": "Lucas Lopez",
+      "family": "data_engineer",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "Snowflake",
+        "Scala",
+        "Docker",
+        "Terraform"
+      ],
+      "degree": "B.E. in Electronics"
+    },
+    "data/resumes/ananya_wilson.txt": {
+      "name": "Ananya Wilson",
+      "family": "data_engineer",
+      "years": 3.5,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "Kafka",
+        "dbt",
+        "Docker"
+      ],
+      "degree": "M.S. in Data Science"
+    },
+    "data/resumes/omar_joshi.pdf": {
+      "name": "Omar Joshi",
+      "family": "data_engineer",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Spark",
+        "SQL",
+        "Snowflake",
+        "Kafka",
+        "dbt"
+      ],
+      "degree": "M.S. in Data Science"
+    },
+    "data/resumes/chloe_pillai.pdf": {
+      "name": "Chloe Pillai",
+      "family": "devops",
+      "years": 10,
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Linux",
+        "Ansible",
+        "Azure",
+        "Kafka",
+        "Bash",
+        "Python"
+      ],
+      "degree": "Diploma in Network Engineering"
+    },
+    "data/resumes/diego_rossi.docx": {
+      "name": "Diego Rossi",
+      "family": "devops",
+      "years": 6,
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "Linux",
+        "Ansible",
+        "Bash",
+        "Python",
+        "Go"
+      ],
+      "degree": "B.Tech in Information Technology"
+    },
+    "data/resumes/sakura_novak.txt": {
+      "name": "Sakura Novak",
+      "family": "devops",
+      "years": 4,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Linux",
+        "Bash",
+        "GCP",
+        "Kafka"
+      ],
+      "degree": "B.E. in Computer Science"
+    },
+    "data/resumes/arjun_menon.pdf": {
+      "name": "Arjun Menon",
+      "family": "devops",
+      "years": 2.5,
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "CI/CD",
+        "Linux",
+        "Python",
+        "Ansible"
+      ],
+      "degree": "B.Tech in Information Technology"
+    },
+    "data/resumes/zara_rahimi.pdf": {
+      "name": "Zara Rahimi",
+      "family": "frontend",
+      "years": 8,
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML/CSS",
+        "Next.js",
+        "Cypress",
+        "GraphQL",
+        "Node.js",
+        "AWS"
+      ],
+      "degree": "B.Des in Interaction Design"
+    },
+    "data/resumes/noah_aziz.docx": {
+      "name": "Noah Aziz",
+      "family": "frontend",
+      "years": 5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML/CSS",
+        "Redux",
+        "Next.js",
+        "Node.js",
+        "GraphQL",
+        "AWS"
+      ],
+      "degree": "B.Sc in Information Technology"
+    },
+    "data/resumes/ifeoma_iyer.txt": {
+      "name": "Ifeoma Iyer",
+      "family": "frontend",
+      "years": 3,
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML/CSS",
+        "Next.js",
+        "Docker",
+        "Cypress",
+        "Vue.js"
+      ],
+      "degree": "B.Des in Interaction Design"
+    },
+    "data/resumes/ravi_mensah.pdf": {
+      "name": "Ravi Mensah",
+      "family": "frontend",
+      "years": 1.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Next.js",
+        "Vue.js",
+        "Cypress"
+      ],
+      "degree": "B.Des in Interaction Design"
+    },
+    "data/resumes/emma_kapoor.pdf": {
+      "name": "Emma Kapoor",
+      "family": "mobile",
+      "years": 6,
+      "skills": [
+        "Kotlin",
+        "Android",
+        "iOS",
+        "REST APIs",
+        "Java",
+        "GraphQL",
+        "React Native",
+        "CI/CD"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/kenji_fischer.docx": {
+      "name": "Kenji Fischer",
+      "family": "mobile",
+      "years": 3,
+      "skills": [
+        "Kotlin",
+        "Android",
+        "Swift",
+        "iOS",
+        "Flutter",
+        "CI/CD",
+        "React Native",
+        "Java"
+      ],
+      "degree": "B.E. in Electronics and Communication"
+    },
+    "data/resumes/leila_rao.txt": {
+      "name": "Leila Rao",
+      "family": "mobile",
+      "years": 2,
+      "skills": [
+        "Kotlin",
+        "Android",
+        "Swift",
+        "iOS",
+        "React Native",
+        "CI/CD"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/samuel_krishnan.pdf": {
+      "name": "Samuel Krishnan",
+      "family": "qa",
+      "years": 7,
+      "skills": [
+        "Selenium",
+        "Java",
+        "Postman",
+        "JUnit",
+        "Python",
+        "SQL",
+        "Agile",
+        "CI/CD"
+      ],
+      "degree": "B.Tech in Information Technology"
+    },
+    "data/resumes/divya_okafor.pdf": {
+      "name": "Divya Okafor",
+      "family": "qa",
+      "years": 4,
+      "skills": [
+        "Selenium",
+        "Java",
+        "Postman",
+        "Cypress",
+        "SQL",
+        "CI/CD",
+        "Agile"
+      ],
+      "degree": "B.Tech in Information Technology"
+    },
+    "data/resumes/ethan_reddy.docx": {
+      "name": "Ethan Reddy",
+      "family": "qa",
+      "years": 1.5,
+      "skills": [
+        "Selenium",
+        "Test Automation",
+        "Java",
+        "Cypress",
+        "Pytest",
+        "Agile"
+      ],
+      "degree": "B.Sc in Computer Science"
+    },
+    "data/resumes/nadia_dubois.txt": {
+      "name": "Nadia Dubois",
+      "family": "data_analyst",
+      "years": 6,
+      "skills": [
+        "SQL",
+        "Tableau",
+        "Excel",
+        "Statistics",
+        "R",
+        "Snowflake",
+        "GCP",
+        "Pandas"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/vikram_patel.pdf": {
+      "name": "Vikram Patel",
+      "family": "data_analyst",
+      "years": 4,
+      "skills": [
+        "SQL",
+        "Excel",
+        "Statistics",
+        "Python",
+        "Snowflake",
+        "R",
+        "Pandas"
+      ],
+      "degree": "B.Tech in Computer Science"
+    },
+    "data/resumes/olivia_karim.pdf": {
+      "name": "Olivia Karim",
+      "family": "data_analyst",
+      "years": 2.5,
+      "skills": [
+        "SQL",
+        "Tableau",
+        "Excel",
+        "Power BI",
+        "Statistics",
+        "Python",
+        "Pandas",
+        "GCP"
+      ],
+      "degree": "B.Sc in Statistics"
+    },
+    "data/resumes/tariq_berg.docx": {
+      "name": "Tariq Berg",
+      "family": "data_analyst",
+      "years": 1,
+      "skills": [
+        "SQL",
+        "Power BI",
+        "Statistics",
+        "Python",
+        "R",
+        "Pandas"
+      ],
+      "degree": "B.Com with Business Analytics"
+    },
+    "data/resumes/isabel_haddad.txt": {
+      "name": "Isabel Haddad",
+      "family": "ml_engineer",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "Spark",
+        "Deep Learning",
+        "SQL"
+      ],
+      "degree": "M.S. in Computer Science"
+    }
+  },
+  "job_descriptions": {
+    "jd01_senior_ml_engineer": {
+      "path": "data/job_descriptions/jd01_senior_ml_engineer.txt",
+      "family": "ml_engineer",
+      "min_years": 5,
+      "must_have": [
+        "Python"
+      ],
+      "relevance": {
+        "data/resumes/aarav_sharma.pdf": 2,
+        "data/resumes/priya_tanaka.pdf": 2,
+        "data/resumes/liam_silva.docx": 2,
+        "data/resumes/sofia_ali.txt": 1,
+        "data/resumes/wei_adeyemi.pdf": 1,
+        "data/resumes/isabel_haddad.txt": 1
+      }
+    },
+    "jd02_java_backend": {
+      "path": "data/job_descriptions/jd02_java_backend.txt",
+      "family": "java_backend",
+      "min_years": 4,
+      "must_have": [
+        "Java",
+        "Spring Boot"
+      ],
+      "relevance": {
+        "data/resumes/fatima_costa.pdf": 2,
+        "data/resumes/mateo_chen.docx": 2,
+        "data/resumes/hana_petrova.txt": 2,
+        "data/resumes/kwame_hassan.pdf": 1,
+        "data/resumes/elena_eze.pdf": 1
+      }
+    },
+    "jd03_data_engineer": {
+      "path": "data/job_descriptions/jd03_data_engineer.txt",
+      "family": "data_engineer",
+      "min_years": 3,
+      "must_have": [
+        "Spark"
+      ],
+      "relevance": {
+        "data/resumes/mei_kim.pdf": 2,
+        "data/resumes/lucas_lopez.docx": 2,
+        "data/resumes/ananya_wilson.txt": 2,
+        "data/resumes/omar_joshi.pdf": 1
+      }
+    },
+    "jd04_devops_sre": {
+      "path": "data/job_descriptions/jd04_devops_sre.txt",
+      "family": "devops",
+      "min_years": 4,
+      "must_have": [
+        "Kubernetes",
+        "Terraform"
+      ],
+      "relevance": {
+        "data/resumes/chloe_pillai.pdf": 2,
+        "data/resumes/diego_rossi.docx": 2,
+        "data/resumes/sakura_novak.txt": 2,
+        "data/resumes/arjun_menon.pdf": 1
+      }
+    },
+    "jd05_frontend_react": {
+      "path": "data/job_descriptions/jd05_frontend_react.txt",
+      "family": "frontend",
+      "min_years": 3,
+      "must_have": [
+        "React",
+        "TypeScript"
+      ],
+      "relevance": {
+        "data/resumes/zara_rahimi.pdf": 2,
+        "data/resumes/noah_aziz.docx": 2,
+        "data/resumes/ifeoma_iyer.txt": 2,
+        "data/resumes/ravi_mensah.pdf": 1
+      }
+    },
+    "jd06_data_analyst": {
+      "path": "data/job_descriptions/jd06_data_analyst.txt",
+      "family": "data_analyst",
+      "min_years": 2,
+      "must_have": [
+        "SQL"
+      ],
+      "relevance": {
+        "data/resumes/nadia_dubois.txt": 2,
+        "data/resumes/vikram_patel.pdf": 2,
+        "data/resumes/olivia_karim.pdf": 2,
+        "data/resumes/tariq_berg.docx": 1
+      }
+    }
+  },
+  "paraphrased_queries": {
+    "q01": {
+      "text": "someone who trains neural networks for text understanding and puts models into production",
+      "family": "ml_engineer",
+      "relevance": {
+        "data/resumes/aarav_sharma.pdf": 1,
+        "data/resumes/priya_tanaka.pdf": 1,
+        "data/resumes/liam_silva.docx": 1,
+        "data/resumes/sofia_ali.txt": 1,
+        "data/resumes/wei_adeyemi.pdf": 1,
+        "data/resumes/isabel_haddad.txt": 1
+      }
+    },
+    "q02": {
+      "text": "engineer building high-throughput payment services on the JVM with event streaming",
+      "family": "java_backend",
+      "relevance": {
+        "data/resumes/fatima_costa.pdf": 1,
+        "data/resumes/mateo_chen.docx": 1,
+        "data/resumes/hana_petrova.txt": 1,
+        "data/resumes/kwame_hassan.pdf": 1,
+        "data/resumes/elena_eze.pdf": 1
+      }
+    },
+    "q03": {
+      "text": "build and orchestrate warehouse pipelines that move terabytes of events every day",
+      "family": "data_engineer",
+      "relevance": {
+        "data/resumes/mei_kim.pdf": 1,
+        "data/resumes/lucas_lopez.docx": 1,
+        "data/resumes/ananya_wilson.txt": 1,
+        "data/resumes/omar_joshi.pdf": 1
+      }
+    },
+    "q04": {
+      "text": "keep our container clusters healthy, write infrastructure as code and own release automation",
+      "family": "devops",
+      "relevance": {
+        "data/resumes/chloe_pillai.pdf": 1,
+        "data/resumes/diego_rossi.docx": 1,
+        "data/resumes/sakura_novak.txt": 1,
+        "data/resumes/arjun_menon.pdf": 1
+      }
+    },
+    "q05": {
+      "text": "craft accessible, fast web interfaces and a reusable component library",
+      "family": "frontend",
+      "relevance": {
+        "data/resumes/zara_rahimi.pdf": 1,
+        "data/resumes/noah_aziz.docx": 1,
+        "data/resumes/ifeoma_iyer.txt": 1,
+        "data/resumes/ravi_mensah.pdf": 1
+      }
+    },
+    "q06": {
+      "text": "analyst who builds dashboards for leadership and runs pricing experiments",
+      "family": "data_analyst",
+      "relevance": {
+        "data/resumes/nadia_dubois.txt": 1,
+        "data/resumes/vikram_patel.pdf": 1,
+        "data/resumes/olivia_karim.pdf": 1,
+        "data/resumes/tariq_berg.docx": 1
+      }
+    },
+    "q07": {
+      "text": "ship features in our phone apps on both app stores with offline sync",
+      "family": "mobile",
+      "relevance": {
+        "data/resumes/emma_kapoor.pdf": 1,
+        "data/resumes/kenji_fischer.docx": 1,
+        "data/resumes/leila_rao.txt": 1
+      }
+    },
+    "q08": {
+      "text": "own regression test automation and catch API contract breaks before release",
+      "family": "qa",
+      "relevance": {
+        "data/resumes/samuel_krishnan.pdf": 1,
+        "data/resumes/divya_okafor.pdf": 1,
+        "data/resumes/ethan_reddy.docx": 1
+      }
+    }
+  }
+}
